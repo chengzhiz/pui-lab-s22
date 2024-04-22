@@ -1,0 +1,28 @@
+
+/*import two fonts that i use*/
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Merriweather:900|Roboto:400,300");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.center > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}

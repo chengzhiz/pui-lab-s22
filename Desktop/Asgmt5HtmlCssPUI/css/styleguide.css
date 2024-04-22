@@ -1,0 +1,105 @@
+/* style guide for the whole website*/
+/*part of the style and precise position referenced anima plug in*/
+
+:root {
+  --black: #000000;
+  --black-2: #00000099;
+  --black-3: #000000cc;
+  --cod-gray: #080809;
+  --mist-gray: #c4c4c433;
+  --oriental-pink: #cc9e8f;
+  --rock-blue: #9bb7c3;
+  --silver: #605555;
+  --white: #ffffff;
+  --zambezi: #605555;
+
+  --font-size-s: 14px;
+  --font-size-m: 18px;
+  --font-size-l: 24px;
+  --font-size-xl: 34px;
+  --font-size-xxl: 36px;
+  --font-size-xxxl: 48px;
+ 
+  --font-family-merriweather: "Merriweather", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.text2 {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.center {
+  color: var(--cod-gray);
+  font-family: var(--font-family-merriweather);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.roboto {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text2-2 {
+  color: var(--black-2);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.serifB14 {
+  color: var(--white);
+  font-family: var(--font-family-merriweather);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.sansB18 {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.sans18 {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  opacity:1;
+}
+
+.serifB24 {
+  color: var(--black);
+  font-family: var(--font-family-merriweather);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.serif34 {
+  color: var(--black);
+  font-family: var(--font-family-merriweather);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.rect2 {
+  border: 1px solid var(--black);
+}
+
+.rect2-3 {
+  border: 1px solid var(--black-3);
+}

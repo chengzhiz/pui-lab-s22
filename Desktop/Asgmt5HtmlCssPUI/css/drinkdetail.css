@@ -1,0 +1,643 @@
+/* screen - drink detail that shared by both pages */
+
+/*part of the style and precise position referenced anima plug in*/
+
+.drinktdetail {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1117px;
+  width: 1728px;
+}
+
+.drinktdetail .headerOverlap {
+  align-items: center;
+  background-image: url(../img/headerBG.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 169px;
+  justify-content: flex-end;
+  min-width: 1728px;
+  padding: 26px 103px;
+}
+
+.drinktdetail .logo {
+  align-self: flex-end;
+  height: 78px;
+  object-fit: cover;
+  width: 235px;
+}
+
+.drinktdetail .why-oat-drink {
+  letter-spacing: 0;
+  margin-left: 504px;
+  margin-top: 41.0px;
+  min-height: 30px;
+  min-width: 168px;
+}
+
+.drinktdetail .drink-lists {
+  letter-spacing: 0;
+  margin-left: 47px;
+  margin-top: 41.0px;
+  min-height: 30px;
+  min-width: 125px;
+}
+
+.drinktdetail .about-us {
+  letter-spacing: 0;
+  margin-left: 47px;
+  margin-top: 41.0px;
+  min-height: 30px;
+  min-width: 104px;
+}
+
+.drinktdetail .log-in {
+  letter-spacing: 0;
+  margin-left: 47px;
+  margin-top: 41.0px;
+  min-height: 30px;
+  min-width: 70px;
+}
+
+.drinktdetail .overlap-group-1 {
+  height: 31px;
+  margin-left: 47px;
+  margin-top: 40.0px;
+  position: relative;
+  width: 125px;
+}
+
+.drinktdetail .my-cart {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 112px;
+}
+
+.drinktdetail .vector {
+  height: 26px;
+  left: 99px;
+  position: absolute;
+  top: 2px;
+  width: 26px;
+}
+
+.drinktdetail .navi {
+  align-items: flex-start;
+  display: flex;
+  height: 31px;
+  margin-left: 13.0px;
+  margin-top: 23px;
+  min-width: 1523px;
+}
+
+.drinktdetail .detail-organic-flavor {
+  letter-spacing: 0;
+  min-height: 31px;
+  width: 273px;
+}
+
+.drinktdetail .back {
+  letter-spacing: 0;
+  margin-left: 1160px;
+  min-height: 31px;
+  width: 86px;
+}
+
+
+
+/* group styles */
+
+.drinktdetail .overlap-group4 {
+  height: 814px;
+  margin-right: 62.0px;
+  margin-top: 23px;
+  position: relative;
+  width: 1148px;
+}
+
+.drinktdetail .the-original {
+  left: 62px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 152px;
+  width: 95px;
+}
+
+.drinktdetail .group-129 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 814px;
+  position: absolute;
+  top: 0;
+  width: 1148px;
+}
+
+.drinktdetail .group-128 {
+  align-items: flex-start;
+  display: flex;
+  height: 603px;
+  margin-left: 3px;
+  min-width: 1145px;
+}
+
+.drinktdetail .group-125 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  min-height: 561px;
+  width: 657px;
+}
+
+/*this is for the whole box */
+
+.drinktdetail .p{
+  opacity: 0;
+}
+
+.drinktdetail .picOverlap {
+  align-items: center;
+  align-self:center;
+  border-radius: 2px;
+  height: 437px;
+  position: relative;
+  width: 657px;
+
+}
+
+.drinktdetail .mainpic {
+  align-self:center;
+  height: 428px;
+  left:200px;
+  align-items: center;
+  position: relative;
+  top: 4px;
+  width: 320px;
+}
+
+.drinktdetail .mainpic2 {
+  align-self:center;
+  height: 428px;
+  left:100px;
+  align-items: center;
+  position: relative;
+  top: 4px;
+  width: 320px;
+
+}
+
+.drinktdetail .labelOverlap {
+  align-items: flex-end;
+  background-color: #8eacb766;
+  display: flex;
+  height: 39px;
+  left: 111px;
+  min-width: 433px;
+  padding: 7.1px 68.9px;
+  position: absolute;
+  top: 307px;
+}
+
+.drinktdetail .labelOverlap2 {
+  align-items: flex-end;
+  background-color: #bfbfbf;
+  display: flex;
+  height: 39px;
+  left: 111px;
+  min-width: 433px;
+  padding: 7.1px 68.9px;
+  position: absolute;
+  top: 307px;
+  opacity: 0.8;
+}
+
+.drinktdetail .labelCenterText {
+  -webkit-text-stroke: 0.1px var(--black);
+  letter-spacing: 0;
+  min-height: 21px;
+  text-align: center;
+  width: 295px;
+}
+
+
+.drinktdetail .group-112 {
+  height: 72px;
+  left: 39px;
+  position: absolute;
+  top: 92px;
+  width: 166px;
+}
+
+.drinktdetail .thumbNail {
+  position:relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0px;
+  margin-top: 20px;
+  min-width: 680px;
+}
+
+.drinktdetail .leftA {
+  height: 78px;
+  margin-bottom: 5.0px;
+  width: 12px;
+}
+
+.drinktdetail .thumbnailGroup {
+  height: 101px;
+  margin-left: 25px;
+  width: 111px;
+}
+
+.drinktdetail .leftA4 {
+  height: 78px;
+  margin-bottom: 5.0px;
+  margin-left: 25px;
+  width: 12px;
+}
+
+.drinktdetail .desGroup {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 118px;
+  min-height: 603px;
+  width: 370px;
+}
+
+.drinktdetail .attributeGroup {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+  min-height: 320px;
+  width: 368px;
+}
+
+.drinktdetail .lineGroup {
+  align-items: center;
+  display: flex;
+  height: 43px;
+  min-width: 371px;
+}
+
+.drinktdetail .original-flavor {
+  letter-spacing: -1px;
+  min-height: 43px;
+  min-width: 260px;
+
+}
+
+.drinktdetail .ID {
+  letter-spacing: 0;
+  margin-left: 26px;
+  margin-top: 8.0px;
+  min-height: 21px;
+  min-width: 81px;
+}
+
+.drinktdetail .flavor {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 1px;
+  margin-top: 23px;
+  min-width: 293px;
+}
+
+.drinktdetail .flavor {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 53px;
+}
+
+.drinktdetail .flavorGroup {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 20px;
+  min-width: 222px;
+}
+
+.drinktdetail .ellipse-1 {
+  background-color: var(--rock-blue);
+  border-radius: 11px;
+  height: 22px;
+  width: 22px;
+}
+
+.drinktdetail .vanilla {
+  letter-spacing: 0;
+  margin-left: 19px;
+  min-height: 21px;
+  min-width: 54px;
+}
+
+.drinktdetail .ellipse-2 {
+  background-color: var(--silver);
+  border-radius: 11px;
+  height: 22px;
+  margin-left: 20px;
+  width: 22px;
+}
+
+.drinktdetail .original {
+  letter-spacing: 0;
+  margin-left: 19px;
+  min-height: 21px;
+  min-width: 62px;
+}
+
+.drinktdetail .priceGroup {
+  align-items: flex-start;
+  display: flex;
+  height: 21px;
+  margin-left: 1px;
+  margin-top: 21px;
+  min-width: 302px;
+}
+
+.drinktdetail .price {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 44px;
+}
+
+.drinktdetail .x4-each {
+  letter-spacing: 0;
+  margin-left: 29px;
+  min-height: 21px;
+  min-width: 71px;
+}
+
+.drinktdetail .or {
+  letter-spacing: 0;
+  margin-left: 25px;
+  min-height: 21px;
+  min-width: 17px;
+}
+
+.drinktdetail .x30-for-10 {
+  letter-spacing: 0;
+  margin-left: 25px;
+  min-height: 21px;
+}
+
+.drinktdetail .subPeriodGroup {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 1px;
+  margin-top: 18px;
+  min-width: 369px;
+}
+
+.drinktdetail .attribute {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 158px;
+}
+
+.drinktdetail .subperiod {
+  align-items: flex-start;
+  background-color: var(--mist-gray);
+  border-radius: 2px;
+  display: flex;
+  height: 28px;
+  margin-left: 52px;
+  min-width: 157px;
+  padding: 2px 25px;
+}
+
+
+.drinktdetail .polygon-1 {
+  height: 1px;
+  margin-left: 15px;
+  margin-top: 5.0px;
+  width: 1px;
+}
+
+.drinktdetail .ratingGroup {
+  align-items: center;
+  display: flex;
+  margin-left: 1px;
+  margin-top: 20px;
+  min-width: 264px;
+}
+
+.drinktdetail .rating {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 55px;
+}
+
+.drinktdetail .group-67 {
+  height: 33px;
+  margin-left: 18px;
+  width: 189px;
+}
+
+.drinktdetail .group-container {
+  align-items: flex-end;
+  display: flex;
+  height: 74px;
+  margin-left: 1px;
+  margin-top: 17px;
+  min-width: 367px;
+}
+
+.drinktdetail .group-87 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 74px;
+  width: 129px;
+}
+
+.drinktdetail .amount {
+  letter-spacing: 0;
+  min-height: 21px;
+}
+
+.drinktdetail .amount-1 {
+  align-items: center;
+  display: flex;
+  margin-top: 25px;
+  min-width: 127px;
+}
+
+.drinktdetail .group-3 {
+  height: 28px;
+  width: 28px;
+}
+
+.drinktdetail .number {
+  letter-spacing: 0;
+  margin-left: 30px;
+  margin-top: 1.0px;
+  min-height: 21px;
+  min-width: 11px;
+}
+
+.drinktdetail .group-2 {
+  height: 28px;
+  margin-left: 30px;
+  width: 28px;
+}
+
+.drinktdetail .group-88 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 38px;
+  min-height: 71px;
+  width: 200px;
+}
+
+.drinktdetail .subscribe {
+  align-items: flex-start;
+  background-color: var(--mist-gray);
+  border-radius: 2px;
+  display: flex;
+  height: 28px;
+  min-width: 200px;
+  padding: 1.4px 59px;
+}
+
+.drinktdetail .subscribe-1 {
+  letter-spacing: 0;
+  min-height: 13px;
+  width: 80px;
+}
+
+.drinktdetail .addtocart {
+  align-items: flex-start;
+  background-color: var(--mist-gray);
+  border-radius: 2px;
+  display: flex;
+  height: 28px;
+  margin-top: 15px;
+  min-width: 200px;
+  padding: 0.8px 55px;
+}
+
+.drinktdetail .add-to-cart {
+  letter-spacing: 0;
+  min-height: 13px;
+  width: 89px;
+}
+
+.drinktdetail .addtocartbig {
+  align-items: flex-start;
+  background-color: #a3ccd7;
+  border: 1px solid #00000080;
+  border-radius: 2px;
+  display: flex;
+  height: 40px;
+  margin-left: 2px;
+  margin-top: 30px;
+  min-width: 367px;
+  padding: 8px 138px;
+}
+
+.drinktdetail .add-to-cart-1 {
+  letter-spacing: 0;
+  min-height: 21px;
+}
+
+
+.drinktdetail .group-110 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 16px;
+  min-width: 1148px;
+}
+
+.drinktdetail .overlap-group2-1 {
+  border-radius: 2px;
+  height: 155px;
+  position: relative;
+  width: 340px;
+}
+
+
+/* comment boxes below */
+
+.drinktdetail .a-site-filled-with-e {
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 18px;
+  width: 280px;
+}
+
+.drinktdetail .ann-usa {
+  left: 205px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: right;
+  top: 122px;
+}
+
+.drinktdetail .rectangle-1 {
+  border-radius: 2px;
+  height: 155px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 340px;
+}
+
+.drinktdetail .line {
+  height: 1px;
+  left: 30px;
+  position: absolute;
+  top: 103px;
+  width: 280px;
+}
+
+.drinktdetail .overlap-group {
+  border-radius: 2px;
+  height: 155px;
+  margin-left: 64px;
+  position: relative;
+  width: 340px;
+}
+
+.drinktdetail .and-also-probably-no {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 18px;
+  width: 280px;
+}
+
+.drinktdetail .ann-cn {
+  left: 199px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: right;
+  top: 122px;
+}
+
+.drinktdetail .cookies-go-nicely-wi {
+  left: 30px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 18px;
+  width: 280px;
+}
+
+.drinktdetail .ann-it {
+  left: 214px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: right;
+  top: 122px;
+}
